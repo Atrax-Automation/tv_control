@@ -1,0 +1,19 @@
+IP address:
+192.168.1.224
+
+
+Control TV like Tony Stark Project:
+X 1. Define areas for functions
+	- left
+	- right
+	- up
+	- down
+	- center
+X 2. integration of hand identifying code
+	- check for location of index
+	- incorporate thumb data
+X 3. Check if index is within the area for a function
+	- buffer the data for robustness
+X 4. Control back using middle and pinky finger
+  5. Control volume by distance between thumb and    	index
+X 6. Integration with FireTV
