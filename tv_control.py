@@ -5,7 +5,7 @@ import mediapipe as mp
 from math import dist
 import subprocess
 
-command_path = 'C:\\Leandro\\Atrax Automation LLC\\Entrenamientos\\Python\\IngeLearn\\Projects\\TV control\\platform-tools-latest-windows\\platform-tools\\adb.exe'
+command_path = 'platform-tools\\adb.exe'
 
 def adb_command(command):
     try:
@@ -108,7 +108,9 @@ def fingerDetection():
             pass
 
 area = 5
-fn_yaml = r"C:\Leandro\Atrax Automation LLC\Entrenamientos\Python\IngeLearn\Projects\TV control\areas.yml"
+
+fn_yaml = r"areas.yml"
+
 config = {'buffer_4_functions': 0.5,
           'interaction_detection': True,
           'text_overlay': True,
